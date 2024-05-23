@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip A Coin</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Flip A Coin</h1>
+        <div class="stats">
+            <p id="heads-count">Heads: 0</p>
+            <p id="tails-count">Tails: 0</p>
+        </div>
+        <div class="coin" id="coin">
+
+            <div class="heads">
+                <img src="head.png">
+            </div>
+            <div class="tails">
+                <img src="tail.png">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="flip-button">
+                Flip Coin
+            </button>
+            <button id="reset-button">
+                Reset
+            </button>
+        </div>
+
+        <audio id="flip-sound" src="coin.mp3"></audio>
+    </div>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
